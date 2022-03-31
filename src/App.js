@@ -30,7 +30,7 @@ function App() {
   const subtitle = "All the latest events in my neighbourhood";
   return (
     <div className="App">
-      <Title title="Korkor's birthday party" subtitle={subtitle} />
+      <Title title="Korkor's Birthday Party" subtitle={subtitle} />
       {/* <Title title="Dress code" subtitle="Monkey suit costumes" /> */}
 
       {showEvents && (
